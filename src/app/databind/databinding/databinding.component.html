@@ -1,0 +1,29 @@
+<h1>Interpolation</h1>
+<p>
+    My name is {{dynName}}
+</p>
+<br><br><br>
+{{85+85}}  <h3>For adding</h3>
+<br><br><br>
+{{"Welcome" + dynName}}  <h3> for Catination</h3>
+<br><br><br>
+{{dynName.length}} <h3>for calculating the length o fthe string</h3>
+<br><br><br>
+{{dynName.toUpperCase()}}<h3> for chan eletter to toUpperCase</h3>
+<br><br><br>
+{{myMethode()}}  <h3>Creating a method</h3>
+<br><br><br>
+My app Status is {{appStatus? status1 : status2}} <h3>Bollean Condition if true its online either false</h3>
+<br><br><br>
+<h1>Property Binding</h1>
+<br>
+<input type="text" name="" [disabled]="dissableBox" id="" [value]="dynName"/><br>
+<button (click)="enableBox()">Enable Text Field</button>
+<br><br>
+<input type="text" name="" [hidden]="hiddenBox" id="" bind-value="dynName"/><br>
+<button (click)="showBox()">show Text Field</button>
+
+<br><br><br>
+
+
+

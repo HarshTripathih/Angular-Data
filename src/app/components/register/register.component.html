@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6" offset-md-3>
+            <form #regform="ngForm" (ngSubmit)="Register(regform)">
+                <h2 class="text-center">Registration Form</h2>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name" name="Firstname" ngModel>
+                    <input type="text" class="form-control" placeholder="Last Name" name="Lastname" ngModel>
+                    <input type="password" class="form-control" placeholder="password" name="password" ngModel>
+                    <input type="email" class="form-control" placeholder="Email" name="email" ngModel>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+</div>
