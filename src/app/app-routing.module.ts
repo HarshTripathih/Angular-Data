@@ -6,6 +6,9 @@ import { BlogComponent } from './components/blog/blog.component';
 import { UserComponent } from './user/user.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { CommentComponent } from './components/comment/comment.component';
+import { TodosComponent } from './components/todos/todos.component';
+import { EventComponent } from './EventBinding/event/event.component';
 const Routes:Routes =[
   {
     path:'register',
@@ -26,6 +29,18 @@ const Routes:Routes =[
   {
     path:'signup',
     component:SignupComponent
+  },
+  {
+    path:"comment",
+    component:CommentComponent
+  },
+  {
+    path:"todos",
+    component:TodosComponent
+  },
+  {
+    path:"event",
+    component:EventComponent
   }
 ];
 

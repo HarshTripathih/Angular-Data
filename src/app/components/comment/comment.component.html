@@ -1,0 +1,11 @@
+<h1 class="text-success">comments !</h1>
+<div class="container-fluid" style="display: flex; flex-wrap:wrap;padding:2px;justify-content: space-between;">
+<div class="card" style="width: 18rem;" *ngFor="let comment of commentData">
+    <div class="card-body">
+      <h5 class="card-title">Post Id : {{comment.postId}}</h5>
+      <h5 class="card-title">Id : {{comment.id}}</h5>
+      <h5 class="card-title">Email : {{comment.email}}</h5>
+      <p class="card-text">Body : {{comment.body}}</p>     
+    </div>
+  </div>
+</div>

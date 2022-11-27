@@ -1,0 +1,11 @@
+<h1 class="text-success">todos Items!</h1>
+<div class="container-fluid" style="display: flex; flex-wrap:wrap;padding:2px;justify-content: space-between;">
+    <div class="card" style="width: 18rem;" *ngFor="let todo of tododata">
+        <div class="card-body">
+          <h5 class="card-title">User Id : {{todo.Id}}</h5>
+          <h5 class="card-title">Id : {{todo.id}}</h5>
+          <h5 class="card-title">Title : {{todo.title}}</h5>
+          <p class="card-text">Completed : {{todo.completed}}</p>     
+        </div>
+      </div>
+    </div>

@@ -12,6 +12,10 @@ import { DatabindingComponent } from './databind/databinding/databinding.compone
 import { ClassStyleComponent } from './ClassStyle/class-style/class-style.component';
 import { EventComponent } from './EventBinding/event/event.component';
 import { TwoWayComponent } from './TwoWayBinding/two-way/two-way.component';
+import { UsersServiceService } from './users-service.service';
+import { CommentComponent } from './components/comment/comment.component';
+import { TodosComponent } from './components/todos/todos.component';
+import { InterpolationComponent } from './databind/interpolation/interpolation.component';
 
 
 
@@ -26,7 +30,10 @@ import { TwoWayComponent } from './TwoWayBinding/two-way/two-way.component';
     DatabindingComponent,
     ClassStyleComponent,
     EventComponent,
-    TwoWayComponent
+    TwoWayComponent,
+    CommentComponent,
+    TodosComponent,
+    InterpolationComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +42,7 @@ import { TwoWayComponent } from './TwoWayBinding/two-way/two-way.component';
     HttpClientModule,
     AppRoutingModule, //changes
   ],
-  providers: [],
+  providers: [UsersServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

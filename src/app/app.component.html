@@ -1,7 +1,7 @@
 <ul class="nav-item" class="nav">
     <!-- <p class="nav-item"> Navbar</p> -->
     <li class="nav-item">
-        <a class="nav-link active" aria-current="page" routerLink="home">home</a>
+        <a class="nav-link active" aria-current="page" routerLink="/">home</a>
     </li>
     <li class="nav-item">
         <a class="nav-link " routerLink="user">User</a>
@@ -9,6 +9,18 @@
 
     <li class="nav-item">
         <a class="nav-link active" routerLink="blog">blog</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link active" routerLink="comment">Comment</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link active" routerLink="todos">Todos</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link active" routerLink="event">Event</a>
     </li>
 
     <li class="nav-item">
@@ -31,12 +43,7 @@
 </ul>
 
 
-<h1>{{firstname}}</h1>
-<h3>{{getName}}</h3>
-<h3>{{obj.name}}</h3>
-<h3>{{arr}}</h3>
-<app-databinding></app-databinding>
-<app-class-style></app-class-style>
-<app-event></app-event>
-<app-two-way></app-two-way>
+
+
+
 <router-outlet></router-outlet>

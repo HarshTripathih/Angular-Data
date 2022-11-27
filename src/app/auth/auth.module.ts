@@ -19,4 +19,6 @@ import { SignupComponent } from './signup/signup.component';
     SignupComponent
   ]
 })
-export class AuthModule { }
+export class AuthModule {
+  
+ }
